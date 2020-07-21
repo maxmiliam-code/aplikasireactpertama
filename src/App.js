@@ -13,6 +13,7 @@ import HooksComp from './Component/Hooks/Fungsional/HooksComp';
 import HooksUseEffect from './Component/Hooks/Fungsional/HooksUseEffect';
 import { CartContext } from './CardContext';
 import ProdukComp from './Component/Hooks/Fungsional/ProdukComp';
+import HooksReducer from './Component/Hooks/Fungsional/HooksReducer';
 //import './App.css';
 //import Home from './Component/Fungsional/Home';
 //import Parent from './Component/Class/Parent';
@@ -35,6 +36,7 @@ const App = () => {
       <Route exact path="/hooks" component={HooksComp}/>
       <Route exact path="/useeffects" component={HooksUseEffect}/>
       <Route exact path="/produk" component={ProdukComp}/>
+      <Route exact path="/reducer" component={HooksReducer}/>
 
       {/*<Route exact path="/detail/:id" component={DetailComp}/>*/}
     </Switch>
